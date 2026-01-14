@@ -1,0 +1,46 @@
+/* Global reset & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, Arial, sans-serif;
+}
+
+/* Body background */
+body {
+  background: #eef3f9;
+}
+
+/* Main card container */
+.container {
+  width: fit-content;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Row holds dropdowns */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* evenly spaced */
+}
+
+/* Individual dropdown wrapper */
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+/* Dropdown styling */
+.form-select {
+  padding: 10px 14px;
+  min-width: 160px;
+  background: #f7fafd;
+  border: 1px solid #cdd6e3;
+  border-radius: 8px;
+  font-size: 15px;
+  c
